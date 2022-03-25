@@ -120,7 +120,7 @@
 		048C66BE27EE4B9000DB8FB6 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				049D68AB27EE595300519275 /* RickAndMorty */,
+				049D68AB27EE595300519275 /* RickAndMortyAPI */,
 				048C66C527EE4CE400DB8FB6 /* Network */,
 			);
 			path = Services;
@@ -174,12 +174,12 @@
 			path = Routes;
 			sourceTree = "<group>";
 		};
-		049D68AB27EE595300519275 /* RickAndMorty */ = {
+		049D68AB27EE595300519275 /* RickAndMortyAPI */ = {
 			isa = PBXGroup;
 			children = (
 				049D68AC27EE596800519275 /* RickAndMortyInteractor.swift */,
 			);
-			path = RickAndMorty;
+			path = RickAndMortyAPI;
 			sourceTree = "<group>";
 		};
 		C3F82F445A5BE29D4454817E /* Frameworks */ = {
