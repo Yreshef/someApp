@@ -17,6 +17,7 @@
 		048C66C727EE4CEE00DB8FB6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C66C627EE4CEE00DB8FB6 /* NetworkManager.swift */; };
 		049D68AA27EE58C500519275 /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D68A927EE58C500519275 /* Routes.swift */; };
 		049D68AD27EE596800519275 /* RickAndMortyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D68AC27EE596800519275 /* RickAndMortyInteractor.swift */; };
+		049D68AF27EE5CB800519275 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D68AE27EE5CB800519275 /* Character.swift */; };
 		5494ACC1353FBDF3DA1573C1 /* Pods_someapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E716D39FB2CB1795ADE575ED /* Pods_someapp.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		048C66C627EE4CEE00DB8FB6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		049D68A927EE58C500519275 /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
 		049D68AC27EE596800519275 /* RickAndMortyInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyInteractor.swift; sourceTree = "<group>"; };
+		049D68AE27EE5CB800519275 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		4A1222F889095C7E1A513393 /* Pods-someapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-someapp.release.xcconfig"; path = "Target Support Files/Pods-someapp/Pods-someapp.release.xcconfig"; sourceTree = "<group>"; };
 		7FDAE72F19608AE97BC65791 /* Pods-someapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-someapp.debug.xcconfig"; path = "Target Support Files/Pods-someapp/Pods-someapp.debug.xcconfig"; sourceTree = "<group>"; };
 		E716D39FB2CB1795ADE575ED /* Pods_someapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_someapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +115,7 @@
 		048C66BD27EE4B8D00DB8FB6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				049D68AE27EE5CB800519275 /* Character.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				048C66A727EE4B1900DB8FB6 /* AppDelegate.swift in Sources */,
 				048C66A927EE4B1900DB8FB6 /* SceneDelegate.swift in Sources */,
 				049D68AD27EE596800519275 /* RickAndMortyInteractor.swift in Sources */,
+				049D68AF27EE5CB800519275 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,8 +7,7 @@
 
 import Foundation
 
-protocol RickAndMortyInteracting {
-}
+protocol RickAndMortyInteracting { }
 
 
 enum RickAndMortyRoute: Routes {
@@ -33,3 +32,6 @@ enum RickAndMortyRoute: Routes {
         }
     }
 }
+
+
+final class RickAndMortyInteractor: RickAndMortyInteracting { }
