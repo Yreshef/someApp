@@ -17,17 +17,22 @@ enum RickAndMortyRoute: Routes {
     }
     
     case character
+    case morty
     
     var urlPath: String {
         switch self {
         case .character:
-            return "\(path)/Character"
+            return "\(path)/character/"
+        case .morty:
+            return "\(path)/character/2"
         }
     }
     
     var parameters: [String : String] {
         switch self {
         case .character:
+            return [:]
+        case .morty:
             return [:]
         }
     }

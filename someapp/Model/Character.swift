@@ -10,7 +10,7 @@ import Foundation
 
 struct Character: Decodable {
     
-    var id: String
+    var id: Int
     var name: String
     var status: String
     var species: String
