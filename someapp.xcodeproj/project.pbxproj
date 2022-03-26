@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04874F5927EF076D00BE6FEB /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04874F5827EF076D00BE6FEB /* CharacterCollectionViewCell.swift */; };
+		04874F5F27EF131E00BE6FEB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04874F5E27EF131E00BE6FEB /* HomeViewController.swift */; };
 		048C66A727EE4B1900DB8FB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C66A627EE4B1900DB8FB6 /* AppDelegate.swift */; };
 		048C66A927EE4B1900DB8FB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C66A827EE4B1900DB8FB6 /* SceneDelegate.swift */; };
 		048C66AB27EE4B1900DB8FB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C66AA27EE4B1900DB8FB6 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		04874F5827EF076D00BE6FEB /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
+		04874F5E27EF131E00BE6FEB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		048C66A327EE4B1900DB8FB6 /* someapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = someapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048C66A627EE4B1900DB8FB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048C66A827EE4B1900DB8FB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				048C66AA27EE4B1900DB8FB6 /* ViewController.swift */,
+				04874F5E27EF131E00BE6FEB /* HomeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				048C66C427EE4BDF00DB8FB6 /* WindowsManaging.swift in Sources */,
 				04874F5927EF076D00BE6FEB /* CharacterCollectionViewCell.swift in Sources */,
 				048C66C727EE4CEE00DB8FB6 /* NetworkManager.swift in Sources */,
+				04874F5F27EF131E00BE6FEB /* HomeViewController.swift in Sources */,
 				048C66A727EE4B1900DB8FB6 /* AppDelegate.swift in Sources */,
 				048C66A927EE4B1900DB8FB6 /* SceneDelegate.swift in Sources */,
 				049D68AD27EE596800519275 /* RickAndMortyInteractor.swift in Sources */,
